@@ -1,6 +1,5 @@
 #include "Ordenamiento.hpp"
 
-
 int* Ordenamiento::crearLista(int size){
     int *lista = new int[size];
     for (int i = 0; i < size; i++)
