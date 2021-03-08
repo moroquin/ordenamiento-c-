@@ -40,7 +40,7 @@ void Ordenamiento::mergeSort(int *lista, int size, std::string espacio){
         
 
     merge(izquierda, mitad, derecha, size-mitad, lista);
-    std::cout<< "Merge->";
+    std::cout<< "Merge->\n";
     imprimirMerge(lista, size,espacio);
 }
 
@@ -80,7 +80,7 @@ void Ordenamiento::imprimirLista(int *lista, int size){
    for (int i = 0; i < size; i++)
         std::cout<<lista[i]<<" ";
 
-    std::cout<<"\n ";
+    std::cout<<"\n" ;
         
 }
 
@@ -89,6 +89,6 @@ void Ordenamiento::imprimirMerge(int *lista, int size, std::string espacio){
     for (int i = 0; i < size; i++)
         std::cout<< lista[i]<<" ";
 
-    std::cout<<"\n ";
+    std::cout<<"\n";
         
 }
