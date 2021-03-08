@@ -1,5 +1,5 @@
 # MERGE SORT - CPP
-__ Exameple of merge sort with arrays in c++ __
+__Exameple of merge sort with arrays in c++__
 ## Compile and execute
 ```bash
     make
